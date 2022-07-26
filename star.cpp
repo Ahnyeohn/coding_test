@@ -14,8 +14,6 @@ int main() {
     cin>>number;
 
     basic(number, 1, 1);
-
-
 }
 
 void basic(int number, int line, int order) {
@@ -51,7 +49,6 @@ void basic(int number, int line, int order) {
         }
     }
     
-
     if(order<number)
         basic(number, line, ++order);
     else{
