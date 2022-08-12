@@ -12,10 +12,6 @@ int main() {
 
     cin>>num;
     dp[1] = 0;
-    // dp[2] = 1;
-    // dp[3] = 1;
-
-    
 
     for(int i=2; i<=num; i++) {
         dp[i] = dp[i-1] + 1;
